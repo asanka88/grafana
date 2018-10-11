@@ -19,11 +19,21 @@
 #  name = "github.com/x/y"
 #  version = "2.4.0"
 
+[[constraint]]
+  name = "github.com/asanka88/grafana"
+  version = "1.0.0"
+
+[[constraint]]
+   name = "github.com/grafana/grafana"
+   branch = "master"
+   source = "github.com/asanka88/grafana"
+
 ignored = [
   "github.com/grafana/grafana/data/*",
   "github.com/grafana/grafana/public/*",
   "github.com/grafana/grafana/node_modules/*"
  ]
+
 
 [[constraint]]
   name = "github.com/BurntSushi/toml"
